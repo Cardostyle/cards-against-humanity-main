@@ -1,0 +1,7 @@
+version: "3.3"
+
+services:
+    cards-against-humanity-server:
+        build:
+            context: .
+            dockerfile: ./Dockerfile
